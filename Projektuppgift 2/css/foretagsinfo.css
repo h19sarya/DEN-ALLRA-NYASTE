@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    font-family: 'Signika', sans-serif;
+    color: #777;
+  
+
+}
+
+header {
+
+  text-align: center;
+  background-color: #1d1d1d;
+
+}
+
+
+
+.navbar {
+    float: left;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-decoration: none;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    border-top: 1px solid blacK;
+    
+}
+    
+
+
+
+.navbar .listitems{
+    list-style: none;
+    overflow: hidden;
+    
+    
+
+}
+li {
+float: left;    
+text-decoration: none;
+}
+
+li.rightside {
+    float: right;
+    font-size: 0.7rem;
+    font-family: 'Signika', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+
+}
+
+
+
+li a {
+    color: #706e6e;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+li a:hover, li a.active {
+    
+    color: #adb1b3;
+    text-decoration: none;
+}
+.kundkorg {
+  float:right;
+
+}
+
+.flex-container__foretagsinfo{
+    width: 45%;
+    text-decoration: none;
+    color:black;
+    font-family: 'Signika', sans-serif;
+    font-size: 0.7rem; 
+    margin: 15%;
+    
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin-left: 30%;
+    
+    justify-content: space-around;
+    
+    
+    
+   
+    
+}
+
+.flex-container__foretagsinfo__text{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+
+}
+
+.flex-container__foretagsinfo__bild{ 
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.flex-container__foretagsinfo img{
+    max-width: 95%;
+    width:95%;
+}
+.footerContent a:link {
+    color: #000;
+  }
+  
+  .footerContent a:visited {
+    color: #000;
+  }
+  
+  .footerContent a:hover {
+    color: #000;
+  }
+  
+  .footerContent a:active {
+    color: #000;
+  }
+  
+  
+  .footer{
+    font-family: 'Signika', sans-serif;
+      width: 100%;
+    background-color: #B7A8A9;
+    color: #fff;
+    display: flex;}
+  
+   
+  .footerContent{
+    font-family: 'Signika', sans-serif;
+    font-size: 0.8rem;
+    width: 33%;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    color: #000;
+    display: inline-blocK;
+    border: 0px;
+  }
+  .mobile__menu{
+    display: none;
+  }
